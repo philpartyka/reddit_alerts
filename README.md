@@ -14,10 +14,12 @@ All relevant messages/posts are sent via Telegram API to a Telegram bot that I c
 ### Whats missing from this repo
 
 To get this running yourself you need a .env file with variables:
+```
 REDDIT_CLIENT_ID=
 REDDIT_CLIENT_SECRET=
 TELEGRAM_BOT_TOKEN=
 TELEGRAM_CHAT_ID=
+```
 Also, an empty banned.txt, if you wish to blacklist users.  
 ...not to mention the different python libraries.
 
