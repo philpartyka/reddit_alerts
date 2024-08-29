@@ -9,4 +9,15 @@ All relevant messages/posts are sent via Telegram API to a Telegram bot that I c
 - r/buildapcsales monitor = Looks for new posts in the buildapcsales subreddit and if its a fast moving post then it messages it.
 - r/sportsbook comments monitor = Sends new comments in the daily promo threads on the sportsbook subreddit.  This script also monitors when a new daily post is created so it can start monitoring it. 
 - r/frugalmalefashion monitor = Just plainly returns every new post from this subreddit.
-- r/BoardGameExchange = Looks for new posts and sends the post with a thumbs down button.  If this button is pressed then the user is blacklisted so I no longer see posts from that user. 
+- r/BoardGameExchange = Looks for new posts and sends the post with a thumbs down button.  If this button is pressed then the user is blacklisted so I no longer see posts from that user.
+
+### Whats missing from this repo
+
+To get this running yourself you need a .env file with variables:
+REDDIT_CLIENT_ID=
+REDDIT_CLIENT_SECRET=
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+Also, an empty banned.txt, if you wish to blacklist users.  
+...not to mention the different python libraries.
+
